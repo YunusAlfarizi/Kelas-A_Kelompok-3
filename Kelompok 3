@@ -1,3 +1,32 @@
+#Nama toko
+print('-' *30)
+print(" Selamat datang di Pizza HUT ")
+print('-' *30)
+#Harga pizza 
+print ("1. Frankfurter BBQ       = Rp. 43.637")
+print ("2. Meat Monsta           = Rp. 43.637")
+print ("3. Super Supreme         = Rp. 43.637")
+print ("4. Super Supreme Chicken = Rp. 43.637")
+pilih_menu = input ("pilih menu :").lower()
+#Menu crust
+print ("1. Pan                  = Rp. 0      ")
+print ("2. StuffedCrust Cheese  = Rp. 12.000 ")
+print ("3. StuffedCrust Sausage = Rp. 9.000  ")
+print ("4. Cheesy Bites         = Rp. 13.500 ")
+print ("5. Crown Crust          = Rp. 12.000 ")
+pilih_crust = input ("pilih crust :"). lower()
+#menu ukuran
+print ("1. personal = Rp. 0     ")
+print ("2. Reguler  = Rp. 57.363")
+print ("3. Large    = Rp. 89.000")
+pilih_ukuran = input …
+[15.22, 30/10/2023] yunus d4: #Nama toko
+print('-' *30)
+print(" Selamat datang di Pizza HUT ")
+print('-' *30)
+#Harga pizza 
+print("\nMenu pizza:")
+print ("1 Frankfurter BBQ       = Rp. 43.637")
 print ("2 StuffedCrust Cheese  = Rp. 12.000 ")
 print ("3 StuffedCrust Sausage = Rp. 9.000  ")
 print ("4 Cheesy Bites         = Rp. 13.500 ")
