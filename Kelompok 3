@@ -1,3 +1,32 @@
+print ("2 StuffedCrust Cheese  = Rp. 12.000 ")
+print ("3 StuffedCrust Sausage = Rp. 9.000  ")
+print ("4 Cheesy Bites         = Rp. 13.500 ")
+print ("5 Crown Crust          = Rp. 12.000 ")
+pilih_crust = int(input("\nPilih menu crust pizza [1/2/3/4/5/]: ").lower())
+if pilih_crust == 1:
+    Crust = "Pan"
+    harga_crust = 0
+elif pilih_crust == 2:
+    Crust = "StuffedCrust Cheese"
+    harga_crust = 12000
+elif pilih_crust == 3:
+    Crust = "StuffedCrust Sausage"
+    harga_crust = 9000
+elif pilih_crust == 4:
+    Crust = "Cheesy Bites"
+    harga_crust = 13500
+elif pilih_crust == 5:
+    Crust = "Crown Crust"
+    harga_crust = 12000
+else:
+    print("Pilihan tidak valid.")
+    exit()
+#menu ukuran
+print("\nmenu ukuran:")
+print ("1 personal = Rp. 0     ")
+print ("2 Reguler  = Rp. 57.363")
+print ("3 Large    = Rp. 89.000")
+pilih_ukuran = int(input("\nPilih menu ukuran pizza [1/2/3/]: ").lower())
 if pilih_ukuran == 1:
     Ukuran = "Personal"
     ukuran_price = 0
