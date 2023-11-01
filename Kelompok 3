@@ -69,7 +69,7 @@ else:
     print("Pilihan tidak valid.")
     exit()
 #sistem ingin menambah keju atau tidak
-nambah_keju = (input("Tambah 13.000 untuk Extra Keju (ya/tidak): ")).lower() == "y"
+nambah_keju = (input("Tambah 13.000 untuk Extra Keju (ya/tidak): ")).lower() == "ya"
 # Biaya tambahan keju
 harga_keju = 13000 if nambah_keju else 0
 # Total biaya
